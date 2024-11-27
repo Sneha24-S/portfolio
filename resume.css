@@ -162,7 +162,7 @@ header .download-btn {
 
 /*@media screen and (min-width:600px) and (max-width:11150) {*/
 .download-link {
-    text-align: left;
+    align: left;
     position: fixed;
     top: 50px;
     left: 50px;
