@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #c5d1d9;
     color: #333;
-
+    font-family: 'Open Sans', sans-serif;
 
     background-size: cover;
 
@@ -15,7 +15,7 @@ body {
 }
 
 header {
-
+    font-family: 'Open Sans', sans-serif;
     background-color: rgba(12, 12, 14, 0.7);
     background-image: url("../portfolio/placeholder-images/bg-home-office-studio.jpg");
     color: rgb(8, 7, 7);
@@ -25,26 +25,38 @@ header {
 }
 
 h1 {
-    margin: 0;
+    /*margin: 0;
     font-size: 2.5em;
-    font family:
+    font family:*/
+
+
 }
 
 h2 {
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     font-size: 1.5em;
     font-style: italic;
 }
 
 main {
+    font-family: 'Open Sans', sans-serif;
     margin: 20px;
 }
 
 section {
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
 }
 
 h2 {
+    font-family: 'Open Sans', sans-serif;
     color: #333;
     font-size: 1.8em;
     border-bottom: 2px solid #0b0e0b;
@@ -52,27 +64,32 @@ h2 {
 }
 
 h3 {
+    font-family: 'Open Sans', sans-serif;
     color: #050505;
     font-size: 1.5em;
 }
 
 p {
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.1em;
     line-height: 1.6;
     color: #555;
 }
 
 ul {
+    font-family: 'Open Sans', sans-serif;
     list-style-type: none;
     padding-left: 0;
 }
 
 ul li {
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.1em;
     margin-bottom: 10px;
 }
 
 footer {
+    font-family: 'Open Sans', sans-serif;
     background-color: #333;
     color: white;
     padding: 10px;
@@ -80,17 +97,20 @@ footer {
 }
 
 footer a {
+    font-family: 'Open Sans', sans-serif;
     color: #f4f4f9;
     text-decoration: none;
     padding: 5px;
 }
 
 footer ul {
+    font-family: 'Open Sans', sans-serif;
     list-style-type: none;
     padding-left: 0;
 }
 
 footer ul li {
+    font-family: 'Open Sans', sans-serif;
     display: inline;
     margin: 0 10px;
 }
@@ -140,13 +160,14 @@ header .download-btn {
     color: #666;
 }
 
-@media screen and (min-width:600px) and (max-width:11150) {
-    .download-link {
-        position: absolute;
-        top: 50px;
-        left: 50px;
-    }
+/*@media screen and (min-width:600px) and (max-width:11150) {*/
+.download-link {
+    text-align: left;
+    position: fixed;
+    top: 50px;
+    left: 50px;
 }
+
 
 a {
     /*color: #4682bb;
