@@ -17,7 +17,7 @@ body {
 header {
 
     background-color: rgba(12, 12, 14, 0.7);
-    background-image: url("../starter-files/placeholder-images/bg-home-office-studio.jpg");
+    background-image: url("../portfolio/placeholder-images/bg-home-office-studio.jpg");
     color: rgb(8, 7, 7);
     padding: 300px 20px;
     text-align: center;
@@ -149,9 +149,17 @@ header .download-btn {
 }
 
 a {
-    color: #4682bb;
+    /*color: #4682bb;
+    text-decoration: none;*/
+    background-color: #171313;
+    text-align: left;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
     text-decoration: none;
-
+    font-size: 1.1em;
+    margin-top: 10px;
 }
 
 a:hover {
